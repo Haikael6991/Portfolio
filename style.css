@@ -23,6 +23,9 @@ nav {
     flex-direction: row;
     justify-content: space-around;
 }
+.barrenav{
+    position: fixed;
+}
 
 header {
     background-image: linear-gradient(rgb(23 19 79 / 2%), rgb(2 2 12)), url(backgroundimage.jpg);
@@ -119,4 +122,29 @@ header {
     font-display: flex ;
    
       
+}
+
+form.project-card{
+    width: 80%;
+    /* background-color: aqua; */
+    textarea{
+        width: 80%;
+    }
+    button{
+        color: white;
+        background-color: black;
+        border-radius: 8px;
+        box-shadow: 4px, black;
+    }
+}
+footer{
+    background-color: black;
+    color: white;
+    a{
+        color: white;
+    }
+    
+}
+.reseaux{
+    color: white;
 }

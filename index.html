@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
 <body>
     <!--header -->
     <header>
-        <nav><!--nav est en flexbox-->
+        <nav class="barrenav"><!--nav est en flexbox-->
 
             <h2>ZEKRI Akaël</h2>
             <div class="ParentNavigation">
@@ -129,30 +129,38 @@
         <h2> Contact</h2>
     </section>
        
-    
-        <form action="/contact" method="post">
-            <ul>
-              <li>
+    <section id="fichecontact">
+
+        <form action="" class="project-card">
+           
+            <div>
                 <label for="name">Nom&nbsp;:</label>
                 <input type="text" id="name" name="user_name" />
-              </li>
-              <li>
+          
                 <label for="mail">E-mail&nbsp;:</label>
                 <input type="email" id="mail" name="user_mail" />
-              </li>
-              <li>
+            </div>
+            
+         
+            <div>
                 <label for="msg">Message&nbsp;:</label>
-                <textarea id="msg" name="user_message" value=" message"></textarea>
-              </li>
-            </ul>
-          </form>
-          <button> Envoyez </button>
-          
+                <textarea id="msg" name="user_message" value="message"></textarea>
+            </div>
+                <button> Envoyer </button>
+      </form>
 
     </section>
+    
 
-    <footer>
-        Suivez-moi sur les réseaux : Faceboob Instagram X Linkedin
+    <footer class="reseaux">
+        <p>Suivez-moi sur les réseaux :</p>
+        <div>
+            <a href="https://www.facebook.com/?locale=fr_FR">Facebook</a> 
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://x.com/?lang=fr">X</a>
+            <a href="https://fr.linkedin.com/">Linkedin</a>
+        </div>
+       
     </footer>
 </body>
 
